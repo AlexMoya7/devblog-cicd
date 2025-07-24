@@ -304,7 +304,7 @@ class TestAPIEndpoints:
         assert data['success'] is True
         assert data['count'] == 0
         assert len(data['data']) == 0
-    def test_health_endpoint(self, client): 
+    def test_health_endpoint(self, client):
         """Test: Health check endpoint works"""
         response = client.get('/api/health')
 
