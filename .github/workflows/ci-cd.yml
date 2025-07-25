@@ -95,6 +95,7 @@ jobs:
   # ================================
   # JOB 3: DOCKER BUILD
   # ================================
+  # se implementa la e2e
   docker-build:
     name: Build Docker Image
     runs-on: ubuntu-latest
